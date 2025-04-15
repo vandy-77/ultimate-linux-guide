@@ -47,6 +47,7 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 ## 🔄 Why Should You Run `apt update` After Installing Ubuntu?
 When you install Ubuntu, the packages included in the ISO image might be outdated. Running:
 ```bash
+apt install sudo
 sudo apt update
 ```
 ✅ Updates the package list from repositories.
