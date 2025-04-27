@@ -47,14 +47,16 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 ## 🔄 Why Should You Run `apt update` After Installing Ubuntu?
 When you install Ubuntu, the packages included in the ISO image might be outdated. Running:
 ```bash
-apt install sudo
-sudo apt update
+apt install sudo # command used to install the sudo utility itself, which is a tool that allows non-root users to execute certain commands with elevated privileges
+sudo apt update # refreshes the list of available software packages and their versions from the repositories your system uses
 ```
+
+
 ✅ Updates the package list from repositories.
 
 Then, to install the latest versions of packages, run:
 ```bash
-sudo apt upgrade -y
+sudo apt upgrade -y # update the package information on your system
 ```
 
 ## 🛠 Essential Package Manager Commands
